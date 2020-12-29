@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+
+\bibitem{araci2019}
+Dogu Araci.
+\newblock Finbert: Financial sentiment analysis with pre-trained language
+  models.
+\newblock {\em CoRR}, abs/1908.10063, 2019.
+
+\bibitem{dai2015}
+Andrew~M. Dai and Quoc~V. Le.
+\newblock Semi-supervised sequence learning.
+\newblock NIPS'15, page 3079–3087, Cambridge, MA, USA, 2015. MIT Press.
+
+\bibitem{devlin2019}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In {\em Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+
+\bibitem{howard2018}
+Jeremy Howard and Sebastian Ruder.
+\newblock Universal language model fine-tuning for text classification.
+\newblock In {\em Proceedings of the 56th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 328--339,
+  Melbourne, Australia, July 2018. Association for Computational Linguistics.
+
+\bibitem{maia2018}
+Macedo Maia, Siegfried Handschuh, Andr\'{e} Freitas, Brian Davis, Ross
+  McDermott, Manel Zarrouk, and Alexandra Balahur.
+\newblock Www'18 open challenge: Financial opinion mining and question
+  answering.
+\newblock In {\em Companion Proceedings of the The Web Conference 2018}, WWW
+  '18, page 1941–1942, Republic and Canton of Geneva, CHE, 2018.
+  International World Wide Web Conferences Steering Committee.
+
+\bibitem{peters2018}
+Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+  Kenton Lee, and Luke Zettlemoyer.
+\newblock Deep contextualized word representations.
+\newblock In {\em Proceedings of the 2018 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 2227--2237, New Orleans,
+  Louisiana, June 2018. Association for Computational Linguistics.
+
+\bibitem{radford2018}
+A.~Radford.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem{radford2019}
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock 2019.
+
+\bibitem{yang2018}
+Steve Yang, Jason Rosenfeld, and Jacques Makutonin.
+\newblock Financial aspect-based sentiment analysis using deep representations,
+  2018.
+
+\bibitem{yang2020}
+Yi~Yang, Mark Christopher~Siy Uy, and Allen Huang.
+\newblock Finbert: {A} pretrained language model for financial communications.
+\newblock {\em CoRR}, abs/2006.08097, 2020.
+
+\bibitem{yang2019}
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ~R Salakhutdinov,
+  and Quoc~V Le.
+\newblock Xlnet: Generalized autoregressive pretraining for language
+  understanding.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, {\em Advances in Neural
+  Information Processing Systems}, volume~32, pages 5753--5763. Curran
+  Associates, Inc., 2019.
+
+\end{thebibliography}

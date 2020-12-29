@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: finbert.aux
+The style file: plain.bst
+Database file #1: finbert.bib
+Warning--I didn't find a database entry for "xxx"
+Warning--empty booktitle in dai2015
+Warning--empty booktitle in radford2018
+Warning--empty journal in radford2019
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            561 strings with 6537 characters,
+and the built_in function-call counts, 4988 in all, are:
+= -- 505
+> -- 261
+< -- 7
++ -- 101
+- -- 90
+* -- 318
+:= -- 767
+add.period$ -- 38
+call.type$ -- 11
+change.case$ -- 75
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 221
+empty$ -- 342
+format.name$ -- 90
+if$ -- 1105
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 10
+newline$ -- 57
+num.names$ -- 24
+pop$ -- 93
+preamble$ -- 1
+purify$ -- 64
+quote$ -- 0
+skip$ -- 200
+stack$ -- 0
+substring$ -- 251
+swap$ -- 99
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 3
+while$ -- 37
+width$ -- 13
+write$ -- 129
+(There were 4 warnings)
