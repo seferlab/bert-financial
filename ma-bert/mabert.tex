@@ -7,7 +7,7 @@
 \usepackage[T1]{fontenc}
 
 
-\title{\vspace{-4cm} MergerBERT: Predicting Merger Targets and Acquirers from Text via Pretradined Language Models}
+\title{\vspace{-4cm} MergerBERT: Predicting Merger Targets and Acquirers from Text via Pretrained Language Models}
 \author{}
 \date{}
 
@@ -17,7 +17,74 @@
 
 \section{Abstract}
 
-\section{Introduction and Related Work}
+We explore the use of a U.S.firm's SEC filings to predict whether the firm will be
+an acquirer or a target of an acquisition within a year of the
+filing. Our approach uses transfer learning.
+
+%Our approach uses text regression, in which frequencies of words and phrases in the document are used as
+%independent variables in a logistic regression model.
+We find that word and phrase features have significant predictive power in models of being an acquirer or a target. In each case, the
+best performing models involve a different use of text alongside
+standard financial variables.
+
+Our perform outperforms all other methods.
+
+% Using Machine Learning to Analyze Merger Activity
+In this paper, I use machine learning techniques in order to use a new dataset to analyze
+merger activity - a firm’s annual 10-k SEC statement. In this statement contains description
+about firm and firm product that I believe will capture harder to observe variables that could
+do well with explaining mergers. I find that the lasso and the ridge regularization techniques
+have found not only words that align with previous merger theory, but also some interesting
+variables that were not previously considered. Using this new technique, I obtained a predictive
+model that yields an R-squared that ranges from 0.02 to 0.07
+
+Our analysis is two-fold. We apply modified BERT to financial text
+prediction. We also present analysis similar to ~\cite{moriarty2019}.
+
+
+\section{Introduction}
+
+
+~\cite{katsafados2019}
+
+
+~\cite{katsafados2020}
+%Textual information and IPO underpricing: A machine learning approach
+This study examines the predictive power of textual information from S-1 filings in
+explaining IPO underpricing. Our empirical approach differs from previous research, as we
+utilize several machine learning algorithms to predict whether an IPO will be underpriced, or
+not. We analyze a large sample of 2,481 U.S. IPOs from 1997 to 2016, and we find that
+textual information can effectively complement traditional financial variables in terms of
+prediction accuracy. In fact, models that use both textual data and financial variables as
+inputs have superior performance compared to models using a single type of input. We
+attribute our findings to the fact that textual information can reduce the ex-ante valuation
+uncertainty of IPO firms, thus leading to more accurate estimates.
+
+~\cite{routledge2013}
+
+~\cite{linlin2018}
+
+
+Mergers and acquisitions (M\&As) play a key role in the economy. At the aggregate level,
+M\&A transactions represent the main mechanism for consolidation and restructuring within
+industries, and their value as a fraction of U.S. GDP is substantial; $5.8\%$ between $1980$ and
+$2011$ (according to M\&A volume is computed from SDC Platinum data as the aggregate value of completed acquisitions of
+U.S. target companies). At the individual company level, takeovers constitute major investment decisions and
+an effective way to discipline ineffcient managers. Given their importance in the economy, it
+is no surprise that M\&As have attracted a great deal of attention among researchers|there
+is a wide body of theoretical and empirical research surrounding
+mergers.
+
+
+\subsection{Related Work}
+
+
+Using textual analysis to identify merger participants: Evidence from the U.S. banking industry~\cite{xxx}.
+
+Confining value from neural networks
+A sectoral study prediction of takeover targets
+in the US technology sector
+
 
 Language models have become a key step to achieve state-of-the art results in many different Natural Language Processing (NLP)
 tasks. Leveraging the huge amount of unlabeled texts nowadays available, they provide an efficient way to pre-train continuous word
@@ -42,7 +109,6 @@ but still underfits WebText. Samples from the
 model reflect these improvements and contain coherent paragraphs of text. These findings suggest
 a promising path towards building language processing systems which learn to perform tasks from
 their naturally occurring demonstrations~\cite{radford2019} 
-
 
 %related work
 There are previous methods that use Machine learning to predict stock
