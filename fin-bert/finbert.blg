@@ -7,45 +7,45 @@ Warning--I didn't find a database entry for "xxx"
 Warning--empty booktitle in dai2015
 Warning--empty booktitle in radford2018
 Warning--empty journal in radford2019
-You've used 11 entries,
+You've used 12 entries,
             2118 wiz_defined-function locations,
-            561 strings with 6537 characters,
-and the built_in function-call counts, 4988 in all, are:
-= -- 505
-> -- 261
+            568 strings with 6678 characters,
+and the built_in function-call counts, 5329 in all, are:
+= -- 539
+> -- 274
 < -- 7
-+ -- 101
-- -- 90
-* -- 318
-:= -- 767
-add.period$ -- 38
-call.type$ -- 11
-change.case$ -- 75
++ -- 106
+- -- 94
+* -- 345
+:= -- 823
+add.period$ -- 41
+call.type$ -- 12
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 221
-empty$ -- 342
-format.name$ -- 90
-if$ -- 1105
+cite$ -- 15
+duplicate$ -- 232
+empty$ -- 371
+format.name$ -- 94
+if$ -- 1177
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 10
-newline$ -- 57
-num.names$ -- 24
-pop$ -- 93
+int.to.str$ -- 12
+missing$ -- 11
+newline$ -- 62
+num.names$ -- 26
+pop$ -- 96
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 68
 quote$ -- 0
-skip$ -- 200
+skip$ -- 208
 stack$ -- 0
-substring$ -- 251
-swap$ -- 99
+substring$ -- 283
+swap$ -- 100
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 48
 warning$ -- 3
-while$ -- 37
-width$ -- 13
-write$ -- 129
+while$ -- 40
+width$ -- 14
+write$ -- 140
 (There were 4 warnings)

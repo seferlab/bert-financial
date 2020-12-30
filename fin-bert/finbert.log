@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  29 DEC 2020 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  30 DEC 2020 10:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -53,114 +53,123 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 (./finbert.aux)
 \openout1 = `finbert.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
- [1
+(Font)              <6> on input line 18.
+
+
+Package natbib Warning: Citation `xxx' on page 1 undefined on input line 55.
+
+
+Package natbib Warning: Citation `xxx' on page 1 undefined on input line 61.
+
+[1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 64.
-
-Overfull \hbox (30.19667pt too wide) in paragraph at lines 76--85
+(Font)              <10.95> on input line 128.
+ [3]
+Overfull \hbox (30.19667pt too wide) in paragraph at lines 171--180
 [][] 
  []
 
 
-Package natbib Warning: Citation `xxx' on page 2 undefined on input line 91.
+Package natbib Warning: Citation `xxx' on page 4 undefined on input line 186.
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
-4.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+[4]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+89.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (38.82285pt too wide) in paragraph at lines 96--98
+Overfull \hbox (38.82285pt too wide) in paragraph at lines 191--193
 []\T1/cmr/m/n/10.95 Reuter's news dataset: $\T1/cmtt/m/n/10.95 https : / / gith
 ub . com / duynht / financial-[]news-[]dataset$ 
  []
 
 
-Overfull \hbox (1.40968pt too wide) in paragraph at lines 99--101
+Overfull \hbox (1.40968pt too wide) in paragraph at lines 194--196
 []\T1/cmr/bx/n/10.95 NLTK's cor-pus $\T1/cmtt/m/n/10.95 https : / / www . kaggl
 e . com / boldy717 / reutersnltk # _ _
  []
 
 
-Overfull \hbox (375.9699pt too wide) in paragraph at lines 102--104
+Overfull \hbox (375.9699pt too wide) in paragraph at lines 197--199
 []\T1/cmr/bx/n/10.95 Fed Meet-ing Notes $\T1/cmtt/m/n/10.95 https : / / fraser 
 . stlouisfed . org / title / federal-[]open-[]market-[]committee-[]meeting-[]mi
 nutes-[]transcripts-[]documents-[]677 ?
  []
 
 
-Overfull \hbox (34.98627pt too wide) in paragraph at lines 105--109
+Overfull \hbox (34.98627pt too wide) in paragraph at lines 200--204
 []\T1/cmr/m/n/10.95 FOMC State-ments Scraper https://github.com/souljourner/FOM
 C-Statements-
  []
 
 
-Overfull \hbox (108.77238pt too wide) in paragraph at lines 105--109
+Overfull \hbox (108.77238pt too wide) in paragraph at lines 200--204
 \T1/cmr/m/n/10.95 Minutes-Scraper Some cleaned tran-scripts https://github.com/
 ali-wetrill/FOMCTranscriptAnalysis 
  []
 
 
-Overfull \hbox (25.07616pt too wide) in paragraph at lines 110--111
+Overfull \hbox (25.07616pt too wide) in paragraph at lines 205--206
 []\T1/cmr/m/n/10.95 Another source for datasets: $\T1/cmtt/m/n/10.95 https : / 
 / rstudio-[]pubs-[]static . s3 . amazonaws .
  []
 
-[2]
-Overfull \hbox (13.97737pt too wide) in paragraph at lines 112--113
+
+Overfull \hbox (13.97737pt too wide) in paragraph at lines 207--208
 []$\T1/cmtt/m/n/10.95 https : / / sraf . nd . edu / textual-[]analysis / resour
 ces / #LM % 20Sentiment %
  []
 
 
-Overfull \hbox (71.87965pt too wide) in paragraph at lines 116--118
+Overfull \hbox (71.87965pt too wide) in paragraph at lines 211--213
 []\T1/cmr/m/n/10.95 10K dataset to-gether with volatil-i-ties http://ifs.tuwien
 .ac.at/ ad-mire/financialvolatility/ 
  []
 
-[3]
-Overfull \hbox (17.24327pt too wide) in paragraph at lines 155--157
+[5]
+Overfull \hbox (17.24327pt too wide) in paragraph at lines 250--252
 \T1/cmr/m/n/10.95 clean the dataset. CIK Ticker Map-ping: https://www.sec.gov/i
 nclude/ticker.txt 
  []
 
-(./finbert.bbl [4])
+(./finbert.bbl [6] [7])
 
 Package natbib Warning: There were undefined citations.
 
-[5] (./finbert.aux) ) 
+[8] (./finbert.aux) ) 
 Here is how much of TeX's memory you used:
- 1145 strings out of 480608
- 15429 string characters out of 5903630
- 251235 words of memory out of 5000000
- 17077 multiletter control sequences out of 15000+600000
+ 1149 strings out of 480608
+ 15502 string characters out of 5903630
+ 251226 words of memory out of 5000000
+ 17081 multiletter control sequences out of 15000+600000
  542737 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,7n,24p,210b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,7n,24p,223b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-sup
-er/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-supe
-r/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
+er/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super
+/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
 sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sf
@@ -170,10 +179,10 @@ bx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx
 .pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb
 >
-Output written on finbert.pdf (5 pages, 177277 bytes).
+Output written on finbert.pdf (8 pages, 186616 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

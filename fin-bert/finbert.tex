@@ -7,7 +7,9 @@
 \usepackage[T1]{fontenc}
 
 
-\title{\vspace{-4cm} Predicting Financial Sentiment Through Pretrained Language Models}
+%\title{\vspace{-4cm} Predicting Financial Sentiment Through Pretrained
+%  Language Models}
+\title{\vspace{-4cm} Predicting Financial Sentiment Through Transfer Learning}
 \author{}
 \date{}
 
@@ -24,8 +26,94 @@
 %Finance Research Letters
 %Review of Quantitative Finance and Accounting
 
+\section{Abstract}
 
-\section{Introduction and Related Work}
+% somewhat checked
+Financial sector accumulates large amount of financial communication
+text. There is an increasing interest in the financial text mining tasks. Over the past few years, Natural Language Processing (NLP) based on deep learning
+has advanced rapidly. Significant progress has been made with deep
+learning, which shows promising results on financial text mining
+models. However, financial sentiment analysis is still a demanding task due to its specialized
+language and lack of labeled data in financial domain. General purpose
+machine learning methods are not as effective due to specialized
+language used in the financial context. To address this issue, we use pre-trained language models to analyze sentiment
+in financial text since these models can be further trained on domain specific
+corpora and they require fewer labeled examples to tackle NLP tasks in financial domain.
+We introduce financial variants of various pre-trained language models
+based on BERT and GPT2 trained on large-scale corpora to tackle NLP sentiment analysis tasks in
+financial domain. We also propose variants of models simultaneously
+trained on general corpora and financial domain corpora. Our results show that our models outperforms all current
+state-of-the-art model for two financial sentiment analysis datasets. We find that the proposed modified methods outperforms state-of-the-art machine learning
+methods even with a smaller training set and fine-tuning only a part of
+the models. Extensive experimental results demonstrate the effectiveness
+and robustness of especially xxx. The datasets, source-code, and
+pre-trained models are available online.
+
+\section{Introduction}
+
+% not checked
+Financial text data are utilized to predict and analyze future market trends in finance and economics~\cite{xxx}. Financial text mining plays an important role in financial technology,
+whether for official company announcements or analyst reports. The volume of financial text data continues to keep increasing since an unprecedented number of such texts are created daily.
+As a result, manual analysis of such texts and gaining actionable insights from them as a result of this analysis is a quite difficult task.
+Recent progress in machine learning have made financial text mining models in FinTech possible. Nevertheless, supervised training data construction is prohibitively expensive since it requires the
+use of expert knowledge in financial domain. Due to the small amount of labeled training data that can be used for
+financial text mining tasks, most financial text mining models cannot directly utilize recently-developed deep learning
+techniques~\cite{xxx}.
+
+In this paper, we focus on polarity analysis, which is classifying text as positive, negative or neutral,
+in a specific domain. It requires to address two challenges: 1) The
+most sophisticated classification methods that make use of neural
+nets require vast amounts of labeled data and labeling financial
+text snippets requires costly expertise. 2) The sentiment analysis
+models trained on general corpora are not suited to the task, because
+financial texts have a specialized language with unique vocabulary
+and have a tendency to use vague.
+
+% checked
+One solution is to use thoroughly and manually crafted financial sentiment lexicons since they incorporate existing financial semantics into textual analysis~\cite{loughran2016}.
+However, such methods are based on word counting, which 
+fail to analyze deeper semantic meaning of provided text.
+
+NLP transfer learning methods look like a promising solution
+to both of the challenges mentioned above. The core idea behind these models is that by training
+language models on very large corpora and then initializing down-stream models with the weights learned from the language
+modeling task, a much better performance can be achieved. The
+initialized layers can range from the single word embedding layer~\cite{peters2018} to the whole model~\cite{howard2018}. This approach should, in theory, be an
+answer to the scarcity of labeled data problem. Language models
+don’t require any labels, since the task is predicting the next word.
+They can learn how to represent the semantic information. That
+leaves the fine-tuning on labeled data only the task of learning how
+to use this semantic information to predict the labels.
+
+One particular component of the transfer learning methods is the
+ability to further pre-train the language models on domain specific
+unlabeled corpus. Thus, the model can learn the semantic relations
+in the text of the target domain, which is likely to have a different
+distribution than a general corpus. This approach is especially
+promising for a niche domain like finance, since the language and
+vocabulary used is dramatically different than a general one.
+
+As a summary, we have the following main contributions in this paper:
+
+\begin{itemize}
+\item We introduce financial extensions of various BERT and GPT models
+  for financial NLP tasks to transfer knowledge from financial domain
+  corpora. We evaluate the proposed methods on two
+   financial sentiment analysis datasets.
+\item We conduct number of experiments on several Financial PhraseBank and FiQA sentiment scoring
+  benchmark datasets. We achieve the state-of-the-art results on both financial datasets.
+\item We compare the performance of various BERT and GPT models and
+  understand why certain models can better explain financial text
+  mining tasks. Our models are capable of efficiently capturing language knowledge and semantic
+information in large-scale pre-training corpora.
+\item We have investigated several aspects of the introduced models, including: effects of further pre-training on financial
+corpus, training strategies to prevent catastrophic forgetting and fine-tuning only a small subset of model layers
+for decreasing training time without a significant drop in performance.
+  \item We implemented our BERT algorithms on Tensorflow and Hugginface
+  frameworks. We make the source code and pre-trained models publicly
+  available. With minimal task-specific architecture modifications.
+\end{itemize}
+
 
 Language models have become a key step to achieve state-of-the art results in many different Natural Language Processing (NLP)
 tasks. Leveraging the huge amount of unlabeled texts nowadays available, they provide an efficient way to pre-train continuous word
@@ -36,16 +124,13 @@ widely demonstrated for English using contextualized representations~\cite{dai20
 Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically
 approached with supervised learning on task specific datasets. We demonstrate that language
 models begin to learn these tasks without any explicit supervision when trained on a new dataset
-of millions of webpages called WebText. When
-conditioned on a document plus questions, the answers generated by the language model reach 55
-F1 on the CoQA dataset - matching or exceeding the performance of 3 out of 4 baseline systems
+of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55
+F1 on the CoQA dataset - matching or exceeding the performance of $3$ out of $4$ baseline systems
 without using the 127,000+ training examples. The capacity of the language model is essential
 to the success of zero-shot task transfer and increasing it improves performance in a log-linear
-fashion across tasks. Our largest model, GPT-2,
-is a 1.5B parameter Transformer that achieves
+fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves
 state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting
-but still underfits WebText. Samples from the
-model reflect these improvements and contain coherent paragraphs of text. These findings suggest
+but still underfits WebText. Samples from the model reflect these improvements and contain coherent paragraphs of text. These findings suggest
 a promising path towards building language processing systems which learn to perform tasks from
 their naturally occurring demonstrations~\cite{radford2019} 
 
@@ -153,7 +238,7 @@ BERT and its variants have significantly enhanced word vector representation. He
 datasets.
 
 
-\textbf{Financial Phrasebank}
+\subsection{Financial Phrasebank}
 
 
 http://www.cs.cmu.edu/~ark/10K/data/
@@ -167,9 +252,7 @@ CIK Ticker Mapping: https://www.sec.gov/include/ticker.txt
 
 
 
-
-
-\textbf{Corporate Reports 10-K \& 10-Q} The most important text data in finance and business communication is corporate report. In the United States,
+\subsection{Corporate Reports 10-K \& 10-Q} The most important text data in finance and business communication is corporate report. In the United States,
 the Securities Exchange Commission (SEC) mandates all publicly traded companies to file annual
 reports, known as Form 10-K, and quarterly reports, known as Form 10-Q. This document provides a comprehensive overview of the company’s
 business and financial condition. Laws and regulations prohibit companies from making materially
