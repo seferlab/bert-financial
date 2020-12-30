@@ -27,6 +27,12 @@ Jeremy Howard and Sebastian Ruder.
   Computational Linguistics (Volume 1: Long Papers)}, pages 328--339,
   Melbourne, Australia, July 2018. Association for Computational Linguistics.
 
+\bibitem{liu2020}
+Zhuang Liu, Degen Huang, Kaiyu Huang, Zhuang Li, and J.~Zhao.
+\newblock Finbert: A pre-trained financial language representation model for
+  financial text mining.
+\newblock In {\em IJCAI}, 2020.
+
 \bibitem{loughran2016}
 TIM LOUGHRAN and BILL MCDONALD.
 \newblock Textual analysis in accounting and finance: A survey.

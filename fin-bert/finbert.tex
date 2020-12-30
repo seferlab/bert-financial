@@ -9,7 +9,7 @@
 
 %\title{\vspace{-4cm} Predicting Financial Sentiment Through Pretrained
 %  Language Models}
-\title{\vspace{-4cm} Predicting Financial Sentiment Through Transfer Learning}
+\title{\vspace{-4cm} FinSentiment: Predicting Financial Sentiment Through Transfer Learning}
 \author{}
 \date{}
 
@@ -17,8 +17,8 @@
 
 \maketitle
 
-% Candidate Journals
-% Quantitative Finance
+% CANDIDATE JOURNALS
+% Quantitative Finance 
 % Rview of Financial Studies
 % Review of Finance
 % Mathematical Finance
@@ -31,7 +31,7 @@
 % somewhat checked
 Financial sector accumulates large amount of financial communication
 text. There is an increasing interest in the financial text mining tasks. Over the past few years, Natural Language Processing (NLP) based on deep learning
-has advanced rapidly. Significant progress has been made with deep
+has advanced significantly and rapidly. Significant progress has been made with deep
 learning, which shows promising results on financial text mining
 models. However, financial sentiment analysis is still a demanding task due to its specialized
 language and lack of labeled data in financial domain. General purpose
@@ -39,6 +39,8 @@ machine learning methods are not as effective due to specialized
 language used in the financial context. To address this issue, we use pre-trained language models to analyze sentiment
 in financial text since these models can be further trained on domain specific
 corpora and they require fewer labeled examples to tackle NLP tasks in financial domain.
+We introduce FinSentiment, which is semantic
+
 We introduce financial variants of various pre-trained language models
 based on BERT and GPT2 trained on large-scale corpora to tackle NLP sentiment analysis tasks in
 financial domain. We also propose variants of models simultaneously
@@ -73,6 +75,13 @@ and have a tendency to use vague.
 One solution is to use thoroughly and manually crafted financial sentiment lexicons since they incorporate existing financial semantics into textual analysis~\cite{loughran2016}.
 However, such methods are based on word counting, which 
 fail to analyze deeper semantic meaning of provided text.
+
+Language models have become a key step to achieve state-of-the art results in many different Natural Language Processing (NLP)
+tasks. Leveraging the huge amount of unlabeled texts nowadays available, they provide an efficient way to pre-train continuous word
+representations that can be fine-tuned for a downstream task, along with their contextualization at the sentence level. This has been
+widely demonstrated for English using contextualized
+representations~\cite{dai2015, peters2018, howard2018, radford2018,
+  devlin2019, yang2019}.
 
 NLP transfer learning methods look like a promising solution
 to both of the challenges mentioned above. The core idea behind these models is that by training
@@ -114,11 +123,21 @@ for decreasing training time without a significant drop in performance.
   available. With minimal task-specific architecture modifications.
 \end{itemize}
 
+% not gone over
+Catastrophic forgetting~\cite{mccloskey1989} is usually a common problem in transfer learning, which means the pre-trained knowledge is erased during learning of new knowledge.
+Therefore, we also investigate whether BERT suffers from the catastrophic forgetting problem.
 
-Language models have become a key step to achieve state-of-the art results in many different Natural Language Processing (NLP)
-tasks. Leveraging the huge amount of unlabeled texts nowadays available, they provide an efficient way to pre-train continuous word
-representations that can be fine-tuned for a downstream task, along with their contextualization at the sentence level. This has been
-widely demonstrated for English using contextualized representations~\cite{dai2015, peters2018, howard2018, radford2018, devlin2019, yang2019}.
+
+
+\subsection{Related Work}
+
+There are previous attempts to use BERT models on financial
+corpora~\cite{araci2019, liu2020, yang2020}.
+
+Another work~\cite{yang2018}. has employed high level semantic representations and methods
+of inductive transfer learning for NLP by using ULMFit~\cite{howard2018}.
+
+There is other work on detecting semantic orientations~\cite{malo2014}.
 
 %GPT2 Paper
 Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  29 DEC 2020 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  30 DEC 2020 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -50,116 +50,117 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count177
 \l__pdf_internal_box=\box45
 )
-No file returnpretrained.aux.
+(./returnpretrained.aux)
 \openout1 = `returnpretrained.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 27.
 
-Package natbib Warning: Citation `ding2015' on page 1 undefined on input line 2
-4.
+
+Package natbib Warning: Citation `ding2015' on page 1 undefined on input line 3
+5.
 
 
 Package natbib Warning: Citation `theil2019' on page 1 undefined on input line 
-46.
+57.
 
 
 Package natbib Warning: Citation `kogan2009' on page 1 undefined on input line 
-53.
+64.
 
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package natbib Warning: Citation `kogan2009' on page 2 undefined on input line 
-57.
+68.
 
 
 Package natbib Warning: Citation `kogan2009' on page 2 undefined on input line 
-59.
+70.
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-9.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+0.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 79.
+(Font)              <10.95> on input line 90.
 
-Overfull \hbox (38.82285pt too wide) in paragraph at lines 81--83
+Overfull \hbox (38.82285pt too wide) in paragraph at lines 92--94
 []\T1/cmr/m/n/10.95 Reuter's news dataset: $\T1/cmtt/m/n/10.95 https : / / gith
 ub . com / duynht / financial-[]news-[]dataset$ 
  []
 
 
-Overfull \hbox (1.40968pt too wide) in paragraph at lines 85--87
+Overfull \hbox (1.40968pt too wide) in paragraph at lines 96--98
 []\T1/cmr/bx/n/10.95 NLTK's cor-pus $\T1/cmtt/m/n/10.95 https : / / www . kaggl
 e . com / boldy717 / reutersnltk # _ _
  []
 
 
-Overfull \hbox (375.9699pt too wide) in paragraph at lines 89--91
+Overfull \hbox (375.9699pt too wide) in paragraph at lines 100--102
 []\T1/cmr/bx/n/10.95 Fed Meet-ing Notes $\T1/cmtt/m/n/10.95 https : / / fraser 
 . stlouisfed . org / title / federal-[]open-[]market-[]committee-[]meeting-[]mi
 nutes-[]transcripts-[]documents-[]677 ?
  []
 
 
-Overfull \hbox (34.98627pt too wide) in paragraph at lines 92--96
+Overfull \hbox (34.98627pt too wide) in paragraph at lines 103--107
 []\T1/cmr/m/n/10.95 FOMC State-ments Scraper https://github.com/souljourner/FOM
 C-Statements-
  []
 
 
-Overfull \hbox (108.77238pt too wide) in paragraph at lines 92--96
+Overfull \hbox (108.77238pt too wide) in paragraph at lines 103--107
 \T1/cmr/m/n/10.95 Minutes-Scraper Some cleaned tran-scripts https://github.com/
 ali-wetrill/FOMCTranscriptAnalysis 
  []
 
 
-Overfull \hbox (25.07616pt too wide) in paragraph at lines 104--105
+Overfull \hbox (25.07616pt too wide) in paragraph at lines 115--116
 []\T1/cmr/m/n/10.95 Another source for datasets: $\T1/cmtt/m/n/10.95 https : / 
 / rstudio-[]pubs-[]static . s3 . amazonaws .
  []
 
 [2]
-Overfull \hbox (13.97737pt too wide) in paragraph at lines 110--111
+Overfull \hbox (13.97737pt too wide) in paragraph at lines 121--122
 []$\T1/cmtt/m/n/10.95 https : / / sraf . nd . edu / textual-[]analysis / resour
 ces / #LM % 20Sentiment %
  []
 
 
-Overfull \hbox (71.87965pt too wide) in paragraph at lines 114--116
+Overfull \hbox (71.87965pt too wide) in paragraph at lines 125--127
 []\T1/cmr/m/n/10.95 10K dataset to-gether with volatil-i-ties http://ifs.tuwien
 .ac.at/ ad-mire/financialvolatility/ 
  []
 
 
-Overfull \hbox (17.24327pt too wide) in paragraph at lines 124--126
+Overfull \hbox (17.24327pt too wide) in paragraph at lines 135--137
 \T1/cmr/m/n/10.95 clean the dataset. CIK Ticker Map-ping: https://www.sec.gov/i
 nclude/ticker.txt 
  []
 
 
-Overfull \hbox (55.51862pt too wide) in paragraph at lines 127--128
+Overfull \hbox (55.51862pt too wide) in paragraph at lines 138--139
 []\T1/cmr/m/n/10.95 Ticker price: Ya-hoo fi-nance down-load https://towardsdata
 science.com/downloading-
  []
@@ -170,13 +171,13 @@ Package natbib Warning: There were undefined citations.
 
 [3] (./returnpretrained.aux) ) 
 Here is how much of TeX's memory you used:
- 1103 strings out of 480608
- 14828 string characters out of 5903630
- 251285 words of memory out of 5000000
+ 1105 strings out of 480608
+ 14870 string characters out of 5903630
+ 251298 words of memory out of 5000000
  17041 multiletter control sequences out of 15000+600000
  541272 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,4n,24p,215b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,5n,24p,215b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvi
 ps/cm-super/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips
 /cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/publ
@@ -185,7 +186,7 @@ ic/cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 m-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-
 super/sfrm1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-su
 per/sftt1095.pfb>
-Output written on returnpretrained.pdf (3 pages, 118896 bytes).
+Output written on returnpretrained.pdf (3 pages, 119539 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream

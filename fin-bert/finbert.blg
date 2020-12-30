@@ -4,48 +4,49 @@ The top-level auxiliary file: finbert.aux
 The style file: plain.bst
 Database file #1: finbert.bib
 Warning--I didn't find a database entry for "xxx"
+Warning--I didn't find a database entry for ""
 Warning--empty booktitle in dai2015
 Warning--empty booktitle in radford2018
 Warning--empty journal in radford2019
-You've used 12 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            568 strings with 6678 characters,
-and the built_in function-call counts, 5329 in all, are:
-= -- 539
-> -- 274
+            572 strings with 6846 characters,
+and the built_in function-call counts, 5694 in all, are:
+= -- 568
+> -- 302
 < -- 7
-+ -- 106
-- -- 94
-* -- 345
-:= -- 823
-add.period$ -- 41
-call.type$ -- 12
-change.case$ -- 80
++ -- 117
+- -- 104
+* -- 371
+:= -- 886
+add.period$ -- 44
+call.type$ -- 13
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 232
-empty$ -- 371
-format.name$ -- 94
-if$ -- 1177
+cite$ -- 16
+duplicate$ -- 246
+empty$ -- 399
+format.name$ -- 104
+if$ -- 1251
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 11
-newline$ -- 62
-num.names$ -- 26
-pop$ -- 96
+int.to.str$ -- 13
+missing$ -- 12
+newline$ -- 67
+num.names$ -- 28
+pop$ -- 108
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 75
 quote$ -- 0
-skip$ -- 208
+skip$ -- 215
 stack$ -- 0
-substring$ -- 283
-swap$ -- 100
+substring$ -- 288
+swap$ -- 102
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 52
 warning$ -- 3
-while$ -- 40
-width$ -- 14
-write$ -- 140
-(There were 4 warnings)
+while$ -- 42
+width$ -- 15
+write$ -- 150
+(There were 5 warnings)
