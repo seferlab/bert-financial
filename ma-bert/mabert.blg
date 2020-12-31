@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mabert.aux
+The style file: plain.bst
+Database file #1: mabert.bib
+Warning--entry type for "katsafados2020" isn't style-file defined
+--line 153 of file mabert.bib
+Warning--I didn't find a database entry for "xxxx"
+Warning--I didn't find a database entry for "xxx"
+Warning--empty booktitle in Buehlmaier2015
+Warning--empty booktitle in dai2015
+Warning--empty booktitle in radford2018
+Warning--empty journal in radford2019
+Warning--empty booktitle in routledge2013
+You've used 25 entries,
+            2118 wiz_defined-function locations,
+            654 strings with 9217 characters,
+and the built_in function-call counts, 10445 in all, are:
+= -- 1031
+> -- 520
+< -- 11
++ -- 202
+- -- 175
+* -- 737
+:= -- 1636
+add.period$ -- 82
+call.type$ -- 25
+change.case$ -- 157
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 420
+empty$ -- 778
+format.name$ -- 175
+if$ -- 2273
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 23
+newline$ -- 127
+num.names$ -- 54
+pop$ -- 175
+preamble$ -- 1
+purify$ -- 132
+quote$ -- 0
+skip$ -- 348
+stack$ -- 0
+substring$ -- 652
+swap$ -- 150
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 100
+warning$ -- 5
+while$ -- 83
+width$ -- 27
+write$ -- 280
+(There were 8 warnings)

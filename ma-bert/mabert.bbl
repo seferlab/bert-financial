@@ -1,0 +1,162 @@
+\begin{thebibliography}{10}
+
+\bibitem{betton2008}
+Sandra Betton, B.~Eckbo, and Karin Thorburn.
+\newblock Corporate takeovers.
+\newblock {\em Handbook of Corporate Finance: Empirical Corporate Finance}, 2,
+  05 2008.
+
+\bibitem{bodnaruk2015}
+Andriy Bodnaruk, Tim Loughran, and Bill McDonald.
+\newblock Using 10-k text to gauge financial constraints.
+\newblock {\em Journal of Financial and Quantitative Analysis},
+  50(4):623–646, 2015.
+
+\bibitem{Buehlmaier2015}
+M~Buehlmaier and TM~Whited.
+\newblock Looking for risk in words: a narrative approach to measuring the
+  pricing implications of financial constraints.
+\newblock 2015.
+
+\bibitem{cremers2008}
+K.~J.~Martijn Cremers, Vinay~B. Nair, and Kose John.
+\newblock {Takeovers and the Cross-Section of Returns}.
+\newblock {\em The Review of Financial Studies}, 22(4):1409--1445, 04 2008.
+
+\bibitem{linlin2018}
+Linlin Cui, Jianhua Chen, and Wentao Wu.
+\newblock Predicting secondary equity offerings (seos) using machine learning.
+\newblock In M.~Arif Wani, Mehmed~M. Kantardzic, Moamar~Sayed Mouchaweh,
+  Jo{\~{a}}o Gama, and Edwin Lughofer, editors, {\em 17th {IEEE} International
+  Conference on Machine Learning and Applications, {ICMLA} 2018, Orlando, FL,
+  USA, December 17-20, 2018}, pages 1219--1224. {IEEE}, 2018.
+
+\bibitem{dai2015}
+Andrew~M. Dai and Quoc~V. Le.
+\newblock Semi-supervised sequence learning.
+\newblock NIPS'15, page 3079–3087, Cambridge, MA, USA, 2015. MIT Press.
+
+\bibitem{devlin2019}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In {\em Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+
+\bibitem{ding2015}
+Xiao Ding, Yue Zhang, Ting Liu, and Junwen Duan.
+\newblock Deep learning for event-driven stock prediction.
+\newblock In {\em Proceedings of the 24th International Conference on
+  Artificial Intelligence}, IJCAI'15, page 2327–2333. AAAI Press, 2015.
+
+\bibitem{eckbo2014}
+B.~Espen Eckbo.
+\newblock Corporate takeovers and economic efficiency.
+\newblock {\em Annual Review of Financial Economics}, 6(1):51--74, 2014.
+
+\bibitem{edmans2012}
+ALEX EDMANS, ITAY GOLDSTEIN, and WEI JIANG.
+\newblock The real effects of financial markets: The impact of prices on
+  takeovers.
+\newblock {\em The Journal of Finance}, 67(3):933--971, 2012.
+
+\bibitem{hoberg2015}
+Gerard Hoberg and Vojislav Maksimovic.
+\newblock {Redefining Financial Constraints: A Text-Based Analysis}.
+\newblock {\em Review of Financial Studies}, 28(5):1312--1352, 2015.
+
+\bibitem{hoberg2010}
+Gerard Hoberg and Gordon Phillips.
+\newblock {Product Market Synergies and Competition in Mergers and
+  Acquisitions: A Text-Based Analysis}.
+\newblock {\em The Review of Financial Studies}, 23(10):3773--3811, 08 2010.
+
+\bibitem{howard2018}
+Jeremy Howard and Sebastian Ruder.
+\newblock Universal language model fine-tuning for text classification.
+\newblock In {\em Proceedings of the 56th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 328--339,
+  Melbourne, Australia, July 2018. Association for Computational Linguistics.
+
+\bibitem{jegadeesh2013}
+Narasimhan Jegadeesh and Di~Wu.
+\newblock Word power: A new approach for content analysis.
+\newblock {\em Journal of Financial Economics}, 110(3):712 -- 729, 2013.
+
+\bibitem{jovanovic2002}
+Boyan Jovanovic and Peter~L. Rousseau.
+\newblock The q-theory of mergers.
+\newblock {\em American Economic Review}, 92(2):198--204, May 2002.
+
+\bibitem{katsafados2020}
+Apostolos Katsafados, Ion Androutsopoulos, Ilias Chalkidis, Manos Fergadiotis,
+  George Leledakis, and Emmanouil Pyrgiotakis.
+\newblock Textual information and ipo underpricing: A machine learning
+  approach, 10 2020.
+
+\bibitem{katsafados2019}
+Apostolos~G. Katsafados, Ion Androutsopoulos, Ilias Chalkidis, Emmanouel
+  Fergadiotis, George~N. Leledakis, and Emmanouil~G. Pyrgiotakis.
+\newblock {Using textual analysis to identify merger participants: Evidence
+  from the U.S. banking industry}.
+\newblock MPRA Paper 96893, University Library of Munich, Germany, November
+  2019.
+
+\bibitem{loughran2013}
+Tim Loughran and Bill McDonald.
+\newblock {IPO first-day returns, offer price revisions, volatility, and form
+  S-1 language}.
+\newblock {\em Journal of Financial Economics}, 109(2):307--326, 2013.
+
+\bibitem{moriarty2019}
+R.~{Moriarty}, H.~{Ly}, E.~{Lan}, and S.~K. {McIntosh}.
+\newblock Deal or no deal: Predicting mergers and acquisitions at scale.
+\newblock In {\em 2019 IEEE International Conference on Big Data (Big Data)},
+  pages 5552--5558, Dec 2019.
+
+\bibitem{peters2018}
+Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+  Kenton Lee, and Luke Zettlemoyer.
+\newblock Deep contextualized word representations.
+\newblock In {\em Proceedings of the 2018 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 2227--2237, New Orleans,
+  Louisiana, June 2018. Association for Computational Linguistics.
+
+\bibitem{radford2018}
+A.~Radford.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem{radford2019}
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock 2019.
+
+\bibitem{routledge2013}
+Bryan~R. Routledge, Stefano Sacchetto, and N.~A. Smith.
+\newblock Predicting merger targets and acquirers from text.
+\newblock 2013.
+
+\bibitem{theil2019}
+Christoph~Kilian Theil, Samuel Broscheit, and Heiner Stuckenschmidt.
+\newblock Profet: Predicting the risk of firms from event transcripts.
+\newblock In {\em Proceedings of the Twenty-Eighth International Joint
+  Conference on Artificial Intelligence, {IJCAI-19}}, pages 5211--5217.
+  International Joint Conferences on Artificial Intelligence Organization, 7
+  2019.
+
+\bibitem{yang2019}
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ~R Salakhutdinov,
+  and Quoc~V Le.
+\newblock Xlnet: Generalized autoregressive pretraining for language
+  understanding.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, {\em Advances in Neural
+  Information Processing Systems}, volume~32, pages 5753--5763. Curran
+  Associates, Inc., 2019.
+
+\end{thebibliography}
