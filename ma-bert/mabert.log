@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  31 DEC 2020 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  31 DEC 2020 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,12 +22,38 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cite/chapterbib.sty
-\c@inputfile=\count175
+\c@inputfile=\count178
 Package: chapterbib 2010/09/18  v 1.17
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
@@ -35,131 +61,146 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count176
+\c@NAT@ctr=\count179
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen135
+\col@sep=\dimen143
 \ar@mcellbox=\box45
-\extrarowheight=\dimen136
-\NC@list=\toks17
+\extrarowheight=\dimen144
+\NC@list=\toks19
 \extratabsurround=\skip51
 \backup@length=\skip52
 \ar@cellbox=\box46
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count177
+\l__kernel_color_stack_int=\count180
 \l__pdf_internal_box=\box47
 )
 (./mabert.aux)
 \openout1 = `mabert.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 42.
- [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23582pt, 56.90552pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69684pt
+* \textheight=731.23582pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package natbib Warning: Citation `xxxx' on page 3 undefined on input line 125.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 64.
 
+Package natbib Warning: Citation `xxx' on page 1 undefined on input line 73.
 
-Overfull \hbox (55.4625pt too wide) in paragraph at lines 123--134
-[][]
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+
+Package natbib Warning: Citation `xxxx' on page 3 undefined on input line 204.
+
+[3] [4]
+
+Package natbib Warning: Citation `xxx' on page 5 undefined on input line 392.
+
+[5] (./mabert.bbl [6]
+Underfull \hbox (badness 1668) in paragraph at lines 100--106
+[]\T1/cmr/m/n/10.95 Apostolos G. Kat-safa-dos, Ion An-drout-sopou-los, Il-ias C
+halkidis, Em-manouel Fer-ga-di-o-tis,
  []
 
-[3]
-
-LaTeX Warning: Reference `sec:10k' on page 4 undefined on input line 165.
-
-
-Overfull \hbox (57.8858pt too wide) in paragraph at lines 185--195
-[][]
- []
-
-[4]
-./mabert.tex:209: Undefined control sequence.
-l.209 ...a comes from the annual report, the \Form
-                                                   10-K" that each
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[5]
-
-Package natbib Warning: Citation `xxx' on page 6 undefined on input line 296.
-
-[6] [7] (./mabert.bbl [8]
-Underfull \hbox (badness 1337) in paragraph at lines 66--69
-\T1/cmr/m/n/10.95 straints: A Text-Based Anal-y-sis.  \T1/cmr/m/it/10.95 Re-vie
-w of Fi-nan-cial Stud-ies\T1/cmr/m/n/10.95 ,
- []
-
-[9] [10])
+[7])
 
 Package natbib Warning: There were undefined citations.
 
-[11] (./mabert.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[8] (./mabert.aux) ) 
 Here is how much of TeX's memory you used:
- 1233 strings out of 480608
- 16457 string characters out of 5903630
- 253221 words of memory out of 5000000
- 17166 multiletter control sequences out of 15000+600000
- 542423 words of font info for 45 fonts, out of 8000000 for 9000
+ 1783 strings out of 480608
+ 24370 string characters out of 5903630
+ 270458 words of memory out of 5000000
+ 17696 multiletter control sequences out of 15000+600000
+ 545630 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,11n,24p,471b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
-/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/tex
-live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texli
-ve/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on mabert.pdf (11 pages, 173811 bytes).
+ 30i,11n,28p,471b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-supe
+r/cm-super-t1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/
+cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx
+1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx12
+00.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440
+.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on mabert.pdf (8 pages, 210904 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

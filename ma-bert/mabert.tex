@@ -1,4 +1,13 @@
 \documentclass[11pt]{article}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+}
+
 \usepackage{url}
 \usepackage{chapterbib}
 \usepackage[sectionbib]{natbib}
@@ -11,15 +20,24 @@
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 
-\title{\vspace{-4cm} MergerBERT: Predicting Merger Targets and Acquirers from Text via Pretrained Language Models}
+\title{MergerBERT: Predicting Merger Targets and Acquirers from Text via Pretrained Language Models}
 \author{}
 \date{}
+
+% Candidate Journals
+% Quantitative Finance UYGUN LATEX VAR
+% Review of Financial Studies
+% Review of Finance UYGUN Latex var
+% Mathematical Finance UYGUN latex yok
+%Journal of Financial and Quantitative Analysis -> non refundable fee
+%Finance Research Letters -> non refundable fee
+%Review of Quantitative Finance and Accounting UYGUN LATEX VAR
+% Journal of Corporate Finance non refundable fee
+% The review of corporate finance studies UYGUN Latex var
 
 \begin{document}
 
 \maketitle
-
-\section{Abstract}
 
 We explore the use of a U.S.firm's SEC filings to predict whether the firm will be
 an acquirer or a target of an acquisition within a year of the
@@ -34,46 +52,118 @@ standard financial variables.
 We apply the proposed model on several real-world tasks and achieve
 state-of-the-art performance in almost all of cases.
 
+While research on merger and acquisition (M&A) has been extensive in the finance literature, in the realm of data science, little work has been done on deploying a successful Big Data informed M&A prediction model. In this paper, we explore what can be learned about M&A activity from a firm's annual Form 10-K SEC filing. We utilize natural language processing (NLP) techniques to vectorize each filing's textual data. Next, we cluster firms by industry and identify keywords suggestive of upcoming M&A activity. We then train a classifier to predict acquirers and targets, which we use to forecast the most likely M&As of 2019. Lastly, we deploy an application which enables users to query our forecasts and visualize our data.
+
+
 \section{Introduction}
 
 Our perform outperforms all other methods.
+Single text classification
 
-Mergers are important, but they are also a relatively infrequent event: An average of
-about $5\%$ of public firms have been acquired every year between 1980
-and 2011. Interestingly, but perhaps not surprisingly, mergers are difficult to predict. Table 1 lists prior
-research aimed at predicting targets where the general conclusion is
-that predicting target fimms with any accuracy has proven difficult~\cite{betton2008}.
-As the table shows, the explanatory power of the models (typically a logistic regression)
-is relatively low, with some evidence of interesting time-series
-properties (mergers come in waves). More directly, merger announcements typically involve a large premium over
+%additional knowledge
+Between 2000 and 2018, more than $790000$ transactions have been announced
+worldwide with a known value of over $57$ trillion USD. In 2018, the
+number of deals has decreased by $8\%$ to about $49000$ transactions,
+while their value has increased by $4\%$ to $3.8$ trillion USD.
+
+% Mergers
+Mergers and acquisitions (M\&As) play a key role in the economy. At the aggregate level,
+M\&A transactions represent the main mechanism for consolidation and restructuring within
+industries, and their value as a fraction of U.S. GDP is substantial
+($5.8\%$ between 1980 and 2011)~\cite{routledge2013}. At the individual company level, takeovers constitute major investment decisions and
+an effective way to discipline inefficient managers. Given their importance in the economy, it
+is no surprise that merger and acquisitions have attracted a great
+deal of attention among researchers. As a result, there is a wide body of theoretical and empirical research surrounding
+mergers~\cite{xxx}.
+
+%general info about mergers 
+Mergers are important, but they are also a relatively infrequent
+event. For instance, an average of about $5\%$ of public firms have been acquired every year between 1980
+and 2011~\cite{routledge2013}~(This is the average fraction of firms that are dropped from the Center for Research in Security Prices
+(CRSP) sample during a year because they are acquired). Interestingly, but perhaps not surprisingly, mergers are
+difficult to predict. In the prior research aimed at predicting targets, the general conclusion is
+that predicting target firms with any accuracy has proven to be
+difficult~\cite{betton2008}. The explanatory power of the models is
+relatively low, with some evidence of interesting time-series properties (mergers come in waves).
+
+%Merger importance
+More directly, mergers are important from many perspectives. Merger announcements typically involve a large premium over
 current prices (between $40\%$ and $50\%$ on average see~\cite{eckbo2014}) and lead to a large and
-rapid change in market prices suggesting the announcement is news to the market. Accordingly,
-any improvement in the ability to predict which firms will be involved in a merger deal
-would prove to be very profitable for an investor in the stock market
+rapid change in market prices suggesting the announcement is news to
+the market. Not coincidentally, many insider trading cases involve suspicious trades of insiders around the date
+of a merger announcement~\cite{keown1981}. Accordingly, any improvement in the ability to predict which firms will be involved in a merger deal
+would prove to be very profitable for an investor in the stock market.
 
-In this paper, we predict whether a U.S. firm will participate in a
-merger or acquisition either as an acquirer or a target by exploiting
-text data. Specifically, we use the disclosure in the firm's Management
+% BERT
+Pretrained models have recently been
+
+Recently, unsupervised pre-training of language models on large corpora has significantly improved
+the performance of many NLP tasks. The language models are pretained on generic corpora
+such as Wikipedia. However, sentiment analysis
+is a strongly domain dependent task. Financial
+sector has accumulated large scale of text of financial
+and business communications. Therefore,
+leveraging the success of unsupervised pretraining
+and large amount of financial text could potentially
+benefit wide range of financial applications.
+
+One of such application is merger target and acquirer prediction.
+
+NLP transfer learning methods look like a promising solution
+to both of the challenges mentioned above, and are the focus of
+this thesis. The core idea behind these models is that by training
+language models on very large corpora and then initializing
+down-stream models with the weights learned from the language
+modeling task, a much better performance can be achieved. The
+initialized layers can range from the single word embedding layer
+[23] to the whole model [5]. This approach should, in theory, be an
+answer to the scarcity of labeled data problem. Language models
+don’t require any labels, since the task is predicting the next word.
+They can learn how to represent the semantic information. That
+leaves the fine-tuning on labeled data only the task of learning how
+to use this semantic information to predict the labels.
+
+One particular component of the transfer learning methods is the
+ability to further pre-train the language models on domain specific
+unlabeled corpus. Thus, the model can learn the semantic relations
+in the text of the target domain, which is likely to have a different
+distribution than a general corpus. This approach is especially
+promising for a niche domain like finance, since the language
+
+
+
+% what we do
+In this paper, we predict whether a firm will participate in a merger or acquisition either as an acquirer or a target by exploiting
+text data. Specifically, we focus on U.S. firms, and use the disclosure in the firm's Management
 Discussion and Analysis (MD\&A) section of the annual 10-K
 filing form. We consider two types of predictions: 1) Will the firm be an acquirer in the subsequent year after the filing? and 2) Will the firm
 be the target of an acquisition in the subsequent year? We explore the quality of text
 in making these predictions, and demonstrate how text-based prediction models can offer
 intuitive hints about upcoming mergers.
 
-
 The central contributions of this paper are as follows:
 
 \begin{itemize}
-\item MergerBERT 
-\item A demonstration of the predictive utility of text disclosures for takeover bids
-\item Modeling innovations for scalable text-driven forecasting.
+\item We introduce MergerBERT, which is based on pretrained language model based
+  on BERT for target and acquirer prediction in mergers. We evaluate
+  the effectiveness of MergerBERT on historical 10-K and Merger and
+  Acquisition~(M\&A) datasets. MergerBERT models innovations for scalable text-driven forecasting.
+\item We achieve the state-of-the-art results on both target and
+  acquirer prediction via pretrained models in MergerBERT. Our results demonstrate the predictive utility of text disclosures for
+  takeover bids. MergerBERT achieves $xxx\%$ and $yyy\%$ better performance than
+  baseline approach in acquirer and target prediction respectively.
+\item We conduct experiments to investigate several aspects of
+  the model, including: effects of further pre-training on financial
+corpus, training strategies to prevent catastrophic
+forgetting and fine-tuning only a small subset of model layers
+for decreasing training time without a significant drop
+in performance.
 \end{itemize}
-  
-This paper contributes to the literature that studies the determinants of corporate
-acquisition decisions. To the best of our knowledge, this is the first
-paper that uses pretrained models to predict takeover targets and
-acquirers.
 
+%papers contribution 
+This paper contributes to the literature that studies the determinants of corporate
+acquisition decisions. To the best of our knowledge, this is the first paper that uses pretrained models to predict takeover targets and
+acquirers.
 
 \subsection{Related Work}
 
@@ -149,24 +239,25 @@ year coefficient for each model.}
 
 \section{Data}
 
-This research is based on two kinds of data: Financial disclosures via
-company 10-K filings and M\&A events.
+This research is based on three kinds of data: Financial disclosures via
+company 10-K filings, company financial data, and M\&A events.
 
 % One results will be only on successfull offer. Another one will be
 % over the ones with unsuccesful offers.
 
+% One result will be on BERT without financial domain training. The
+% other will be on BERT with financial domain training.
+
 \subsection{Merger Bid Event Data}
 
 Our data is obtained from Eikon Thomson Reuters database. We focus on
-the list of pairs of companies that have made~(acquirer) and
-received~(target) a merger offer in a given year from Eikon
+the list of company pairs that have made~(acquirer) and received~(target) a merger offer in a given year from Eikon
 database. Such offers may eventually be unsuccessful or successful. Each offer occurs on a specific date, and we focus on the period
 1995-2019 which overlaps with our disclosure 10-K dataset in
 Section~\ref{sec:10k}. We drop cases in which the bidder already owns more than $50\%$ of the target shares prior to
 the announcement of the bid, in order to exclude acquisitions of
 minority interest in the target or stock repurchases. We also drop a bid if either of the following conditions are
-satisfied: 1- The percentage of shares that the bidder
-is seeking to acquire is less than $50\%$ of the target shares, 2- If
+satisfied: 1- The percentage of shares that the bidder is seeking to acquire is less than $50\%$ of the target shares, 2- If
 such percentage information is missing, and 3- If the fraction of shares held by the bidder after a completed
 transaction is less than $50\%$. We also drop observations that SDC labels as block purchases, creeping
 acquisition, privatization.
@@ -206,13 +297,29 @@ For ease of interpretation we standardize these variables to have mean $0$ and v
 
 \subsection{Form 10-K Text Corpus}\label{sec:10k}
 
-Our text data comes from the annual report, the \Form 10-K" that each
-publicly company files with the SEC. Inside the 10-K is a section called Management's Discussion and Analysis
-(MD\&A). The MD\&A section is where management reviews the past year's financial and other results and discusses forecasts
-of the future. Using MD\&A section is in line with previous work~\cite{routledge2013}.
+Our text data comes from the annual report, the Form 10-K that each
+publicly company files with the SEC. Inside the 10-K is a section
+called Management's Discussion and Analysis (MD\&A). The MD\&A section
+is where management reviews the past year's financial and other
+results and discusses forecasts of the future. Using MD\&A section is in line with previous work~\cite{routledge2013}.
 
 From $1995$ to $2019$ we have $xxx$ firm-year
-observations. 
+observations.
+
+The text was processed similar to many studies that use text as a regressor. Punctuation
+was removed and all words were down-cased. Numerical, percentage, and dollar figures were
+replaced with a token. For example, $50,000$ and $2.00$ are both replaced by $\#$ (recall
+that we have high quality financial information from the Compustat data). These individual
+words (and tokens) are called unigrams. To capture multiple word chains, we constructed
+multiword phrases from our data. Phrases are identified by applying a program that identifies each word's part of speech,8 then conjoins common phrase patterns (adjective-noun,
+for example). Common phrases include: 'financial condition', 'capital resources', 'common
+stock', 'qualitative disclosures', 'market risk', 'fair value', and 'financial statements.' Combined,
+there are 236,480 unigrams and phrases in our ''training" data; as described below.
+We discard features that are used less than 500 times and in less than 200 documents.
+This leaves 12,243 unique terms. Let freq(j; n) denote the frequency
+of the jth term type in the $n$th document. Since these counts are highly skewed, we log-transform them. Our
+right-hand-side textual independent variables are $xn;j = \log (1 + freq(j; n))$.
+
 
 
 
