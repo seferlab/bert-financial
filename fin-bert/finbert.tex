@@ -283,6 +283,16 @@ Form 10-Qs of Russell 3000 firms during 1994 and
 2019 from SEC website. We only include sections that are textual components, such as Item 1 (Business) in 10-Ks, Item 1A (Risk Factors) in both 10-
 Ks and 10-Qs and Item 7 (Managements Discussion and Analysis) in 10-Ks.
 
+\subsection{Implementation Details}
+\subsubsection{Pre-process}
+Before feeding 10-K corpus~\cite{kogan2009} for pre-training level, each sentence is separated line by line and  an empty line is inserted between each different document.
+\newline
+In the sentiment analysis part, FIQA datasets are labelled using the sentiment-scores of each sentence. Negative sentiment-scores are labelled as -1, positive sentiment-scores are labelled as 1 and sentiment-scores equals to 0 are labelled as 0. 
+\newline
+A handicap of such labelling in fiqa dataset is having far too less amount of 0-labelled sentences. This could be one of the reasons that they are less successful in sentiment analysis of Financial Phrase Databank dataset. We would expect that the model trained with fiqa headline will perform better than other models trained by FPD datasets for predicting fiqa post labels and vice versa.  As expected, FPD datasets reveal better performance than fiqa datasets for FPD datasets. 
+\subsubsection{Transformer-based Algorithms}
+First level of the Bert algorithm application is pre-training. In this level, we used transformers from hugging face library~\cite{wolf2019huggingface}. \textit{Transformers} is an open source library allowing users to pre-train and test their models with various Bert-variant algorithms. Its structure has an encoder\& decoder-based network enhanced by attention mechanism utilizing recurrence and convolution \cite{vaswani2017attention}.  
+\newline Here, we tested Bert, Roberta and Xlnet algorithms using 10-K corpus~\cite{kogan2009} on pre-training level and data from FIQA \& Financial Phrase Databank on sentiment analysis level.
 
 \bibliographystyle{plain}
 \bibliography{finbert}
